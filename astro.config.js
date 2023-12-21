@@ -29,7 +29,8 @@ if (isBuild) {
 
 export default defineConfig({
   server: { port: SERVER_PORT },
-  site: BASE_URL,
+  site: 'https://abhigyansrivastava.github.io',
+  base: '/last',
   integrations: [
     sitemap(),
     tailwind({
